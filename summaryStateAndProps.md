@@ -11,7 +11,7 @@
    3.除非外部组件主动传入新的props，否则组件的props永远保持不变。   
 **一个组件的state中的数据可以通过props传给子组件，一个组件可以使用外部传入的props来初始化自己的state。**
 **state是让组件控制自己的状态，props是让外部对组件自己进行配置**
-·
+```
    class HelloWorld extends Component {
       constructor(){
          super()
@@ -25,4 +25,4 @@
        )
      }
    }
-·
+```
